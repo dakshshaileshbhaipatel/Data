@@ -1,241 +1,118 @@
-2026-03-14 16:39:49,497 - INFO - Database 'TEST' created successfully.
-2026-03-14 16:40:54,967 - WARNING - Database 'TEST' already exists.
-2026-03-14 16:43:48,886 - ERROR - Error dropping database: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+2026-03-14 19:03:17,470 - INFO - Database connection established
+2026-03-14 19:03:23,833 - WARNING - Database 'TEST' already exists.
+2026-03-14 19:03:33,615 - INFO - Database 'TEST' dropped successfully.
+2026-03-14 19:04:13,181 - INFO - User cancelled database creation.
+2026-03-14 19:05:10,230 - INFO - User cancelled database connection.
+2026-03-14 19:05:18,367 - INFO - User cancelled database creation.
+2026-03-14 19:05:50,896 - INFO - User cancelled database drop.
+2026-03-14 19:29:47,061 - ERROR - Error creating table: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "TEST" does not exist
 
-2026-03-14 16:44:29,800 - INFO - Database 'TEST' dropped successfully.
-2026-03-14 16:44:35,506 - WARNING - Attempted to drop non-existing database 'TEST'.
-2026-03-14 16:44:53,448 - INFO - Database 'user-app' dropped successfully.
-2026-03-14 16:50:30,128 - INFO - Database 'TEST' created successfully.
-2026-03-14 16:51:27,574 - WARNING - Database 'TEST' already exists.
-2026-03-14 16:54:47,638 - WARNING - Database 'TEST' already exists.
-2026-03-14 17:06:32,942 - WARNING - Database 'TEST' already exists.
-2026-03-14 17:28:01,784 - WARNING - Database 'TEST' already exists.
-2026-03-14 17:28:01,822 - CRITICAL - Fatal error in TSV loader: cannot unpack non-iterable psycopg2.extensions.connection object
-2026-03-14 17:28:57,247 - WARNING - Database 'TEST' already exists.
-2026-03-14 17:28:57,285 - CRITICAL - Fatal error in TSV loader: cannot unpack non-iterable psycopg2.extensions.connection object
-2026-03-14 17:33:56,019 - ERROR - Database connection failed: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
-
-2026-03-14 17:36:39,339 - WARNING - Database 'TEST' already exists.
-2026-03-14 17:36:39,377 - ERROR - Database connection failed: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
-
-2026-03-14 17:36:39,377 - CRITICAL - Fatal error in TSV loader: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
-
-2026-03-14 17:36:47,886 - WARNING - Database 'TEST' already exists.
-2026-03-14 17:36:48,027 - ERROR - Database connection failed: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
-
-2026-03-14 17:36:48,027 - CRITICAL - Fatal error in TSV loader: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
-
-2026-03-14 17:37:23,055 - WARNING - Database 'TEST' already exists.
-2026-03-14 17:37:23,092 - INFO - Database connection established
-2026-03-14 17:37:26,716 - INFO - TSV files selected for loading
-2026-03-14 17:37:26,716 - INFO - File selected: D:/Datasets/IMDB-18March2026/name.basics.tsv
-2026-03-14 17:37:26,716 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.akas.tsv
-2026-03-14 17:37:26,716 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.basics.tsv
-2026-03-14 17:37:26,716 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.crew.tsv
-2026-03-14 17:37:26,716 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.episode.tsv
-2026-03-14 17:37:26,717 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.principals.tsv
-2026-03-14 17:37:26,717 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.ratings.tsv
-2026-03-14 17:37:26,717 - INFO - Processing file: D:/Datasets/IMDB-18March2026/name.basics.tsv
-2026-03-14 17:37:26,717 - INFO - Target table: name_basics
-2026-03-14 17:37:28,543 - INFO - Create table SQL generated for name_basics
-2026-03-14 17:37:52,638 - INFO - Successfully loaded table: name_basics
-2026-03-14 17:37:52,638 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.akas.tsv
-2026-03-14 17:37:52,638 - INFO - Target table: title_akas
-2026-03-14 17:37:52,639 - INFO - Create table SQL generated for title_akas
-2026-03-14 17:39:10,542 - INFO - Successfully loaded table: title_akas
-2026-03-14 17:39:10,542 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.basics.tsv
-2026-03-14 17:39:10,543 - INFO - Target table: title_basics
-2026-03-14 17:39:10,543 - INFO - Create table SQL generated for title_basics
-2026-03-14 17:39:40,400 - INFO - Successfully loaded table: title_basics
-2026-03-14 17:39:40,400 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.crew.tsv
-2026-03-14 17:39:40,401 - INFO - Target table: title_crew
-2026-03-14 17:39:40,403 - INFO - Create table SQL generated for title_crew
-2026-03-14 17:39:54,448 - INFO - Successfully loaded table: title_crew
-2026-03-14 17:39:54,450 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.episode.tsv
-2026-03-14 17:39:54,450 - INFO - Target table: title_episode
-2026-03-14 17:39:54,452 - INFO - Create table SQL generated for title_episode
-2026-03-14 17:40:05,611 - INFO - Successfully loaded table: title_episode
-2026-03-14 17:40:05,611 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.principals.tsv
-2026-03-14 17:40:05,611 - INFO - Target table: title_principals
-2026-03-14 17:40:05,612 - INFO - Create table SQL generated for title_principals
-2026-03-14 17:42:23,022 - INFO - Successfully loaded table: title_principals
-2026-03-14 17:42:23,022 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.ratings.tsv
-2026-03-14 17:42:23,022 - INFO - Target table: title_ratings
-2026-03-14 17:42:23,045 - INFO - Create table SQL generated for title_ratings
-2026-03-14 17:42:24,685 - INFO - Successfully loaded table: title_ratings
-2026-03-14 17:42:24,685 - INFO - TSV loading process completed
-2026-03-14 17:59:19,821 - WARNING - Database 'TEST' already exists.
-2026-03-14 17:59:19,863 - INFO - Database connection established
-2026-03-14 17:59:23,420 - INFO - TSV files selected
-2026-03-14 17:59:23,420 - INFO - File selected: D:/Datasets/IMDB-18March2026/name.basics.tsv
-2026-03-14 17:59:23,420 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.akas.tsv
-2026-03-14 17:59:23,420 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.basics.tsv
-2026-03-14 17:59:23,420 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.crew.tsv
-2026-03-14 17:59:23,420 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.episode.tsv
-2026-03-14 17:59:23,421 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.principals.tsv
-2026-03-14 17:59:23,421 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.ratings.tsv
-2026-03-14 17:59:23,421 - INFO - Processing file: D:/Datasets/IMDB-18March2026/name.basics.tsv
-2026-03-14 17:59:23,435 - WARNING - Skipped load: table 'name_basics' already exists
-2026-03-14 17:59:23,435 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.akas.tsv
-2026-03-14 17:59:23,435 - WARNING - Skipped load: table 'title_akas' already exists
-2026-03-14 17:59:23,435 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.basics.tsv
-2026-03-14 17:59:23,436 - WARNING - Skipped load: table 'title_basics' already exists
-2026-03-14 17:59:23,436 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.crew.tsv
-2026-03-14 17:59:23,437 - WARNING - Skipped load: table 'title_crew' already exists
-2026-03-14 17:59:23,437 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.episode.tsv
-2026-03-14 17:59:23,437 - WARNING - Skipped load: table 'title_episode' already exists
-2026-03-14 17:59:23,437 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.principals.tsv
-2026-03-14 17:59:23,438 - WARNING - Skipped load: table 'title_principals' already exists
-2026-03-14 17:59:23,438 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.ratings.tsv
-2026-03-14 17:59:23,439 - WARNING - Skipped load: table 'title_ratings' already exists
-2026-03-14 17:59:23,439 - INFO - TSV ingestion completed
-2026-03-14 17:59:50,203 - INFO - Database 'TEST' dropped successfully.
-2026-03-14 18:06:55,304 - INFO - Database 'TEST' created successfully.
-2026-03-14 18:06:55,353 - INFO - Database connection established
-2026-03-14 18:07:11,185 - INFO - TSV files selected
-2026-03-14 18:07:11,185 - INFO - File selected: D:/Datasets/IMDB-18March2026/name.basics.tsv
-2026-03-14 18:07:11,185 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.akas.tsv
-2026-03-14 18:07:11,185 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.basics.tsv
-2026-03-14 18:07:11,185 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.crew.tsv
-2026-03-14 18:07:11,185 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.episode.tsv
-2026-03-14 18:07:11,185 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.principals.tsv
-2026-03-14 18:07:11,185 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.ratings.tsv
-2026-03-14 18:07:11,185 - INFO - Processing file: D:/Datasets/IMDB-18March2026/name.basics.tsv
-2026-03-14 18:07:11,260 - INFO - Table created: name_basics
-2026-03-14 18:07:22,504 - ERROR - Error loading name_basics: unterminated CSV quoted field
-CONTEXT:  COPY name_basics, line 15157627: "nm13204540	Anthony 'Tony" James	\N	\N	director,editor,cinematographer	tt22769152,tt21834478,tt627742..."
-
-2026-03-14 18:07:22,504 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.akas.tsv
-2026-03-14 18:07:22,509 - INFO - Table created: title_akas
-2026-03-14 18:08:20,755 - ERROR - Error loading title_akas: unterminated CSV quoted field
-CONTEXT:  COPY title_akas, line 55466511: "tt9909210	1	"Politik und/oder Moral - Wie weit geht das Vertrauen der Bürger?	\N	\N	original	\N	1
-t..."
-
-2026-03-14 18:08:20,756 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.basics.tsv
-2026-03-14 18:08:20,763 - INFO - Table created: title_basics
-2026-03-14 18:08:28,123 - ERROR - Error loading title_basics: missing data for column "genres"
-CONTEXT:  COPY title_basics, line 677869: "tt0701219	tvEpisode	Summer of 4'2"	Summer of 4'2"	0	1996	\N	30	Animation,Comedy"
-
-2026-03-14 18:08:28,123 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.crew.tsv
-2026-03-14 18:08:28,127 - INFO - Table created: title_crew
-2026-03-14 18:08:38,724 - INFO - Loaded table successfully: title_crew
-2026-03-14 18:08:38,724 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.episode.tsv
-2026-03-14 18:08:38,728 - INFO - Table created: title_episode
-2026-03-14 18:08:46,478 - INFO - Loaded table successfully: title_episode
-2026-03-14 18:08:46,478 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.principals.tsv
-2026-03-14 18:08:46,483 - INFO - Table created: title_principals
-2026-03-14 18:09:12,104 - ERROR - Error loading title_principals: extra data after last expected column
-CONTEXT:  COPY title_principals, line 470044: "tt0034508	2	nm0039951	actor	\N	["Young Wine\")"]
-tt0034508	3	nm0003539	actor	\N	["(segment \"A Price..."
-
-2026-03-14 18:09:12,104 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.ratings.tsv
-2026-03-14 18:09:12,140 - INFO - Table created: title_ratings
-2026-03-14 18:09:13,181 - INFO - Loaded table successfully: title_ratings
-2026-03-14 18:09:13,182 - INFO - TSV ingestion completed
-2026-03-14 18:12:13,672 - INFO - Database 'TEST' dropped successfully.
-2026-03-14 18:12:19,362 - INFO - Database 'TEST' created successfully.
-2026-03-14 18:12:22,308 - INFO - Database connection established
-2026-03-14 18:12:27,904 - INFO - TSV files selected
-2026-03-14 18:12:27,904 - INFO - File selected: D:/Datasets/IMDB-18March2026/name.basics.tsv
-2026-03-14 18:12:27,905 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.akas.tsv
-2026-03-14 18:12:27,905 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.basics.tsv
-2026-03-14 18:12:27,905 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.crew.tsv
-2026-03-14 18:12:27,905 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.episode.tsv
-2026-03-14 18:12:27,905 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.principals.tsv
-2026-03-14 18:12:27,905 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.ratings.tsv
-2026-03-14 18:12:27,905 - INFO - Processing file: D:/Datasets/IMDB-18March2026/name.basics.tsv
-2026-03-14 18:12:27,975 - INFO - Table created: name_basics
-2026-03-14 18:12:50,466 - INFO - Loaded table successfully: name_basics
-2026-03-14 18:12:50,466 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.akas.tsv
-2026-03-14 18:12:50,470 - INFO - Table created: title_akas
-2026-03-14 18:14:09,755 - INFO - Loaded table successfully: title_akas
-2026-03-14 18:14:09,755 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.basics.tsv
-2026-03-14 18:14:09,759 - INFO - Table created: title_basics
-2026-03-14 18:14:39,115 - INFO - Loaded table successfully: title_basics
-2026-03-14 18:14:39,115 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.crew.tsv
-2026-03-14 18:14:39,119 - INFO - Table created: title_crew
-2026-03-14 18:14:52,102 - INFO - Loaded table successfully: title_crew
-2026-03-14 18:14:52,102 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.episode.tsv
-2026-03-14 18:14:52,106 - INFO - Table created: title_episode
-2026-03-14 18:15:00,499 - INFO - Loaded table successfully: title_episode
-2026-03-14 18:15:00,499 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.principals.tsv
-2026-03-14 18:15:00,502 - INFO - Table created: title_principals
-2026-03-14 18:17:20,970 - INFO - Loaded table successfully: title_principals
-2026-03-14 18:17:20,970 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.ratings.tsv
-2026-03-14 18:17:20,998 - INFO - Table created: title_ratings
-2026-03-14 18:17:22,197 - INFO - Loaded table successfully: title_ratings
-2026-03-14 18:17:22,197 - INFO - TSV ingestion completed
-2026-03-14 18:19:39,114 - WARNING - Database 'TEST' already exists.
-2026-03-14 18:19:40,372 - INFO - Database connection established
-2026-03-14 18:19:44,076 - INFO - TSV files selected
-2026-03-14 18:19:44,076 - INFO - File selected: D:/Datasets/IMDB-18March2026/name.basics.tsv
-2026-03-14 18:19:44,076 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.akas.tsv
-2026-03-14 18:19:44,076 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.basics.tsv
-2026-03-14 18:19:44,076 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.crew.tsv
-2026-03-14 18:19:44,076 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.episode.tsv
-2026-03-14 18:19:44,076 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.principals.tsv
-2026-03-14 18:19:44,076 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.ratings.tsv
-2026-03-14 18:19:44,076 - INFO - Processing file: D:/Datasets/IMDB-18March2026/name.basics.tsv
-2026-03-14 18:19:44,091 - WARNING - Skipped load: table 'name_basics' already exists
-2026-03-14 18:19:44,091 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.akas.tsv
-2026-03-14 18:19:44,092 - WARNING - Skipped load: table 'title_akas' already exists
-2026-03-14 18:19:44,092 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.basics.tsv
-2026-03-14 18:19:44,093 - WARNING - Skipped load: table 'title_basics' already exists
-2026-03-14 18:19:44,093 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.crew.tsv
-2026-03-14 18:19:44,094 - WARNING - Skipped load: table 'title_crew' already exists
-2026-03-14 18:19:44,094 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.episode.tsv
-2026-03-14 18:19:44,095 - WARNING - Skipped load: table 'title_episode' already exists
-2026-03-14 18:19:44,095 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.principals.tsv
-2026-03-14 18:19:44,096 - WARNING - Skipped load: table 'title_principals' already exists
-2026-03-14 18:19:44,096 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.ratings.tsv
-2026-03-14 18:19:44,097 - WARNING - Skipped load: table 'title_ratings' already exists
-2026-03-14 18:19:44,097 - INFO - TSV ingestion completed
-2026-03-14 18:39:08,630 - WARNING - Database 'TEST' already exists.
-2026-03-14 18:39:10,256 - INFO - Database connection established
-2026-03-14 18:39:15,748 - INFO - TSV files selected
-2026-03-14 18:39:15,748 - INFO - File selected: D:/Datasets/IMDB-18March2026/name.basics.tsv
-2026-03-14 18:39:15,748 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.akas.tsv
-2026-03-14 18:39:15,748 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.basics.tsv
-2026-03-14 18:39:15,749 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.crew.tsv
-2026-03-14 18:39:15,749 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.episode.tsv
-2026-03-14 18:39:15,749 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.principals.tsv
-2026-03-14 18:39:15,749 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.ratings.tsv
-2026-03-14 18:39:15,749 - INFO - Processing file: D:/Datasets/IMDB-18March2026/name.basics.tsv
-2026-03-14 18:39:15,756 - WARNING - Skipped load: table 'name_basics' already exists
-2026-03-14 18:39:15,756 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.akas.tsv
-2026-03-14 18:39:15,757 - WARNING - Skipped load: table 'title_akas' already exists
-2026-03-14 18:39:15,758 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.basics.tsv
-2026-03-14 18:39:15,759 - WARNING - Skipped load: table 'title_basics' already exists
-2026-03-14 18:39:15,759 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.crew.tsv
-2026-03-14 18:39:15,759 - WARNING - Skipped load: table 'title_crew' already exists
-2026-03-14 18:39:15,760 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.episode.tsv
-2026-03-14 18:39:15,760 - WARNING - Skipped load: table 'title_episode' already exists
-2026-03-14 18:39:15,760 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.principals.tsv
-2026-03-14 18:39:15,761 - WARNING - Skipped load: table 'title_principals' already exists
-2026-03-14 18:39:15,761 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.ratings.tsv
-2026-03-14 18:39:15,762 - WARNING - Skipped load: table 'title_ratings' already exists
-2026-03-14 18:39:15,762 - INFO - TSV ingestion completed
-2026-03-14 18:56:24,667 - INFO - Database connection established
-2026-03-14 18:56:28,404 - INFO - TSV files selected
-2026-03-14 18:56:28,405 - INFO - File selected: D:/Datasets/IMDB-18March2026/name.basics.tsv
-2026-03-14 18:56:28,405 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.akas.tsv
-2026-03-14 18:56:28,405 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.basics.tsv
-2026-03-14 18:56:28,405 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.crew.tsv
-2026-03-14 18:56:28,406 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.episode.tsv
-2026-03-14 18:56:28,406 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.principals.tsv
-2026-03-14 18:56:28,406 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.ratings.tsv
-2026-03-14 18:56:28,406 - INFO - Processing file: D:/Datasets/IMDB-18March2026/name.basics.tsv
-2026-03-14 18:56:28,412 - WARNING - Skipped load: table 'name_basics' already exists
-2026-03-14 18:56:28,412 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.akas.tsv
-2026-03-14 18:56:28,413 - WARNING - Skipped load: table 'title_akas' already exists
-2026-03-14 18:56:28,413 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.basics.tsv
-2026-03-14 18:56:28,414 - WARNING - Skipped load: table 'title_basics' already exists
-2026-03-14 18:56:28,414 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.crew.tsv
-2026-03-14 18:56:28,415 - WARNING - Skipped load: table 'title_crew' already exists
-2026-03-14 18:56:28,415 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.episode.tsv
-2026-03-14 18:56:28,415 - WARNING - Skipped load: table 'title_episode' already exists
-2026-03-14 18:56:28,415 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.principals.tsv
-2026-03-14 18:56:28,416 - WARNING - Skipped load: table 'title_principals' already exists
-2026-03-14 18:56:28,416 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.ratings.tsv
-2026-03-14 18:56:28,417 - WARNING - Skipped load: table 'title_ratings' already exists
-2026-03-14 18:56:28,417 - INFO - TSV ingestion completed
+2026-03-14 19:31:18,275 - INFO - Database 'TEST' created successfully.
+2026-03-14 19:32:45,016 - INFO - Database connection established
+2026-03-14 19:32:45,016 - ERROR - Error creating table: name 'cursor' is not defined
+2026-03-14 19:33:12,399 - INFO - Database connection established
+2026-03-14 19:33:14,274 - INFO - Table 'new_table' created successfully.
+2026-03-14 19:33:14,274 - ERROR - Error creating table: name 'conn' is not defined
+2026-03-14 19:33:28,595 - INFO - Database connection established
+2026-03-14 19:33:30,079 - INFO - Table 'new_table' created successfully.
+2026-03-14 19:34:27,180 - INFO - Database connection established
+2026-03-14 19:34:33,752 - INFO - Table 'new_table' created successfully.
+2026-03-14 19:35:52,168 - INFO - Database connection established
+2026-03-14 19:35:54,722 - INFO - Table 'new_table' created successfully.
+2026-03-14 19:37:42,919 - INFO - Database connection established
+2026-03-14 19:37:44,848 - INFO - Table 'new_table' created successfully.
+2026-03-14 19:40:05,813 - INFO - Database connection established
+2026-03-14 19:40:06,786 - INFO - Table 'new_table' created successfully.
+2026-03-14 19:43:02,870 - INFO - Database connection established
+2026-03-14 19:43:05,441 - INFO - Table 'new_table' created successfully.
+2026-03-14 19:49:21,888 - INFO - Table 'new_table' created successfully.
+2026-03-14 19:53:35,653 - WARNING - Table 'new_table' already exists.
+2026-03-14 19:57:40,885 - INFO - Table 'new_table' created successfully.
+2026-03-14 20:11:47,693 - INFO - User cancelled database connection.
+2026-03-14 20:11:47,694 - CRITICAL - Fatal loader error: Database connection failed: connect_db() returned None
+2026-03-14 20:11:54,116 - INFO - Database connection established
+2026-03-14 20:12:01,325 - INFO - TSV files selected
+2026-03-14 20:12:01,325 - INFO - File selected: D:/Datasets/IMDB-18March2026/name.basics.tsv
+2026-03-14 20:12:01,326 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.akas.tsv
+2026-03-14 20:12:01,326 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.basics.tsv
+2026-03-14 20:12:01,326 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.crew.tsv
+2026-03-14 20:12:01,326 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.episode.tsv
+2026-03-14 20:12:01,326 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.principals.tsv
+2026-03-14 20:12:01,327 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.ratings.tsv
+2026-03-14 20:12:01,327 - INFO - Processing file: D:/Datasets/IMDB-18March2026/name.basics.tsv
+2026-03-14 20:12:01,355 - INFO - Table 'name_basics' created successfully.
+2026-03-14 20:12:21,050 - INFO - Loaded table successfully: name_basics
+2026-03-14 20:12:21,050 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.akas.tsv
+2026-03-14 20:12:21,055 - INFO - Table 'title_akas' created successfully.
+2026-03-14 20:13:29,003 - INFO - Loaded table successfully: title_akas
+2026-03-14 20:13:29,003 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.basics.tsv
+2026-03-14 20:13:29,009 - INFO - Table 'title_basics' created successfully.
+2026-03-14 20:13:55,691 - INFO - Loaded table successfully: title_basics
+2026-03-14 20:13:55,691 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.crew.tsv
+2026-03-14 20:13:55,695 - INFO - Table 'title_crew' created successfully.
+2026-03-14 20:14:06,984 - INFO - Loaded table successfully: title_crew
+2026-03-14 20:14:06,984 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.episode.tsv
+2026-03-14 20:14:06,988 - INFO - Table 'title_episode' created successfully.
+2026-03-14 20:14:15,519 - INFO - Loaded table successfully: title_episode
+2026-03-14 20:14:15,520 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.principals.tsv
+2026-03-14 20:14:15,524 - INFO - Table 'title_principals' created successfully.
+2026-03-14 20:16:18,730 - INFO - Loaded table successfully: title_principals
+2026-03-14 20:16:18,730 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.ratings.tsv
+2026-03-14 20:16:18,762 - INFO - Table 'title_ratings' created successfully.
+2026-03-14 20:16:19,934 - INFO - Loaded table successfully: title_ratings
+2026-03-14 20:16:19,934 - INFO - TSV ingestion completed
+2026-03-14 20:18:18,702 - INFO - Database connection established
+2026-03-14 20:18:21,794 - INFO - TSV files selected
+2026-03-14 20:18:21,794 - INFO - File selected: D:/Datasets/IMDB-18March2026/name.basics.tsv
+2026-03-14 20:18:21,795 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.akas.tsv
+2026-03-14 20:18:21,795 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.basics.tsv
+2026-03-14 20:18:21,795 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.crew.tsv
+2026-03-14 20:18:21,795 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.episode.tsv
+2026-03-14 20:18:21,795 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.principals.tsv
+2026-03-14 20:18:21,795 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.ratings.tsv
+2026-03-14 20:18:21,795 - INFO - Processing file: D:/Datasets/IMDB-18March2026/name.basics.tsv
+2026-03-14 20:18:21,817 - WARNING - Table 'name_basics' already exists. Skipping creation.
+2026-03-14 20:18:47,705 - INFO - Loaded table successfully: name_basics
+2026-03-14 20:18:47,705 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.akas.tsv
+2026-03-14 20:18:47,707 - WARNING - Table 'title_akas' already exists. Skipping creation.
+2026-03-14 20:20:03,444 - INFO - Loaded table successfully: title_akas
+2026-03-14 20:20:03,444 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.basics.tsv
+2026-03-14 20:20:03,451 - WARNING - Table 'title_basics' already exists. Skipping creation.
+2026-03-14 20:20:32,902 - INFO - Loaded table successfully: title_basics
+2026-03-14 20:20:32,902 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.crew.tsv
+2026-03-14 20:20:32,904 - WARNING - Table 'title_crew' already exists. Skipping creation.
+2026-03-14 20:20:45,389 - INFO - Loaded table successfully: title_crew
+2026-03-14 20:20:45,389 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.episode.tsv
+2026-03-14 20:20:45,391 - WARNING - Table 'title_episode' already exists. Skipping creation.
+2026-03-14 20:20:53,972 - INFO - Loaded table successfully: title_episode
+2026-03-14 20:20:53,972 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.principals.tsv
+2026-03-14 20:20:53,973 - WARNING - Table 'title_principals' already exists. Skipping creation.
+2026-03-14 20:23:02,051 - INFO - Loaded table successfully: title_principals
+2026-03-14 20:23:02,051 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.ratings.tsv
+2026-03-14 20:23:02,081 - WARNING - Table 'title_ratings' already exists. Skipping creation.
+2026-03-14 20:23:03,255 - INFO - Loaded table successfully: title_ratings
+2026-03-14 20:23:03,255 - INFO - TSV ingestion completed
+2026-03-14 20:36:03,577 - INFO - Database connection established
+2026-03-14 20:36:06,950 - INFO - TSV files selected
+2026-03-14 20:36:06,950 - INFO - File selected: D:/Datasets/IMDB-18March2026/name.basics.tsv
+2026-03-14 20:36:06,951 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.akas.tsv
+2026-03-14 20:36:06,951 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.basics.tsv
+2026-03-14 20:36:06,951 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.crew.tsv
+2026-03-14 20:36:06,951 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.episode.tsv
+2026-03-14 20:36:06,952 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.principals.tsv
+2026-03-14 20:36:06,952 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.ratings.tsv
+2026-03-14 20:36:06,952 - INFO - Processing file: D:/Datasets/IMDB-18March2026/name.basics.tsv
+2026-03-14 20:36:06,957 - WARNING - Skipped load: table 'name_basics' already exists
+2026-03-14 20:36:06,957 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.akas.tsv
+2026-03-14 20:36:06,958 - WARNING - Skipped load: table 'title_akas' already exists
+2026-03-14 20:36:06,958 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.basics.tsv
+2026-03-14 20:36:06,959 - WARNING - Skipped load: table 'title_basics' already exists
+2026-03-14 20:36:06,959 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.crew.tsv
+2026-03-14 20:36:06,960 - WARNING - Skipped load: table 'title_crew' already exists
+2026-03-14 20:36:06,960 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.episode.tsv
+2026-03-14 20:36:06,961 - WARNING - Skipped load: table 'title_episode' already exists
+2026-03-14 20:36:06,961 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.principals.tsv
+2026-03-14 20:36:06,962 - WARNING - Skipped load: table 'title_principals' already exists
+2026-03-14 20:36:06,962 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.ratings.tsv
+2026-03-14 20:36:06,963 - WARNING - Skipped load: table 'title_ratings' already exists
+2026-03-14 20:36:06,963 - INFO - TSV ingestion completed

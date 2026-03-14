@@ -21,14 +21,14 @@ def connect_db():
 
         # Dialogue box
         db_name = simpledialog.askstring(
-            "Database Creation",
-            "Enter database name:",
+            "Database Connection",
+            "Enter database name you want to connect to:",
             initialvalue="TEST"
         )
 
         if not db_name:
-            messagebox.showinfo("Cancelled", "Database creation cancelled.")
-            logging.info("User cancelled database creation.")
+            messagebox.showinfo("Cancelled", "Database connection cancelled.")
+            logging.info("User cancelled database connection.")
             return
         
         conn = psycopg2.connect(

@@ -23,7 +23,7 @@ def create_database():
         # Dialogue box
         db_name = simpledialog.askstring(
             "Database Creation",
-            "Enter database name:",
+            "Enter database name you want to create:",
             initialvalue="TEST"
         )
 
