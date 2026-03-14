@@ -215,3 +215,27 @@ tt0034508	3	nm0003539	actor	\N	["(segment \"A Price..."
 2026-03-14 18:39:15,761 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.ratings.tsv
 2026-03-14 18:39:15,762 - WARNING - Skipped load: table 'title_ratings' already exists
 2026-03-14 18:39:15,762 - INFO - TSV ingestion completed
+2026-03-14 18:56:24,667 - INFO - Database connection established
+2026-03-14 18:56:28,404 - INFO - TSV files selected
+2026-03-14 18:56:28,405 - INFO - File selected: D:/Datasets/IMDB-18March2026/name.basics.tsv
+2026-03-14 18:56:28,405 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.akas.tsv
+2026-03-14 18:56:28,405 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.basics.tsv
+2026-03-14 18:56:28,405 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.crew.tsv
+2026-03-14 18:56:28,406 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.episode.tsv
+2026-03-14 18:56:28,406 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.principals.tsv
+2026-03-14 18:56:28,406 - INFO - File selected: D:/Datasets/IMDB-18March2026/title.ratings.tsv
+2026-03-14 18:56:28,406 - INFO - Processing file: D:/Datasets/IMDB-18March2026/name.basics.tsv
+2026-03-14 18:56:28,412 - WARNING - Skipped load: table 'name_basics' already exists
+2026-03-14 18:56:28,412 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.akas.tsv
+2026-03-14 18:56:28,413 - WARNING - Skipped load: table 'title_akas' already exists
+2026-03-14 18:56:28,413 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.basics.tsv
+2026-03-14 18:56:28,414 - WARNING - Skipped load: table 'title_basics' already exists
+2026-03-14 18:56:28,414 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.crew.tsv
+2026-03-14 18:56:28,415 - WARNING - Skipped load: table 'title_crew' already exists
+2026-03-14 18:56:28,415 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.episode.tsv
+2026-03-14 18:56:28,415 - WARNING - Skipped load: table 'title_episode' already exists
+2026-03-14 18:56:28,415 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.principals.tsv
+2026-03-14 18:56:28,416 - WARNING - Skipped load: table 'title_principals' already exists
+2026-03-14 18:56:28,416 - INFO - Processing file: D:/Datasets/IMDB-18March2026/title.ratings.tsv
+2026-03-14 18:56:28,417 - WARNING - Skipped load: table 'title_ratings' already exists
+2026-03-14 18:56:28,417 - INFO - TSV ingestion completed
